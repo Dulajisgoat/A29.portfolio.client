@@ -3,6 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="icon" type="image/png" href="v1.png">
 <title>ADITHA CHAMIKARA — Game Developer / Creative Technologist</title>
 <link rel="preconnect" href="https://cdn.jsdelivr.net">
 <link href="https://cdn.jsdelivr.net/npm/@fontsource-variable/orbitron/index.css" rel="stylesheet">
@@ -75,10 +76,8 @@ nav{position:fixed;top:0;left:0;right:0;z-index:9100;display:flex;align-items:ce
   border-bottom:1px solid var(--line);transition:padding .3s}
 nav.small{padding:9px clamp(16px,4vw,46px);background:rgba(4,6,11,.93)}
 .brand{display:flex;align-items:center;gap:12px;text-decoration:none}
-.brand-mark{width:36px;height:36px;position:relative;display:grid;place-items:center;
-  border:1px solid rgba(var(--accent-rgb),.5);background:rgba(var(--accent-rgb),.07);
-  clip-path:polygon(50% 0,100% 25%,100% 75%,50% 100%,0 75%,0 25%)}
-.brand-mark b{font-family:var(--disp);font-size:13px;font-weight:900;color:var(--accent);letter-spacing:.05em}
+.brand-mark{width:36px;height:36px;display:block;object-fit:contain;
+  border:1px dashed rgba(var(--accent-rgb),.35);background:rgba(var(--accent-rgb),.04)}
 .brand-txt{font-family:var(--disp);font-size:13px;font-weight:700;letter-spacing:.2em;color:#eaf2ff}
 .brand-txt em{display:block;font-family:var(--mono);font-style:normal;font-size:9px;letter-spacing:.28em;color:var(--muted)}
 .nlinks{display:flex;align-items:center;gap:4px}
@@ -371,7 +370,7 @@ footer{border-top:1px solid var(--line);background:#03050a;padding:60px clamp(18
 <!-- NAV -->
 <nav id="nav">
   <a href="#hero" class="brand">
-    <div class="brand-mark"><b>AC</b></div>
+    <img class="brand-mark" src="./v1.png" alt="logo placeholder">
     <div class="brand-txt">ADITHA CHAMIKARA<em>Adithachamikara29</em></div>
   </a>
   <div class="nlinks" id="nlinks">
